@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "Part 1.1: ProductTest",
+      "setup": "",
+      "run": "./gradlew test --tests ProductTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Part 1.2: VehicleTest",
+      "setup": "",
+      "run": "./gradlew test --tests VehicleTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Part 2: WebShopTest",
+      "setup": "",
+      "run": "./gradlew test --tests WebShopTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "Part 3: CountryTest",
+      "setup": "",
+      "run": "./gradlew test --tests CountryTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "Part 4.1: MarkdownExportTest (pizza)",
+      "setup": "",
+      "run": "./gradlew test --tests MarkdownExportTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Part 4.2: ProductMarkdownTest (product)",
+      "setup": "",
+      "run": "./gradlew test --tests ProductMarkdownTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Part 5: dependency injection",
+      "setup": "",
+      "run": "./gradlew run",
+      "input": "",
+      "output": "202",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+[submodule "git-hello-world-iines-j"]
+	path = git-hello-world-iines-j
+	url = https://github.com/javakurssi/git-hello-world-iines-j.git
+[submodule "warming-up-iines-j"]
+	path = warming-up-iines-j
+	url = https://github.com/javakurssi/warming-up-iines-j.git
+[submodule "map-exercises-iines-j"]
+	path = map-exercises-iines-j
+	url = https://github.com/javakurssi/map-exercises-iines-j.git
+[submodule "junit-exercise-iines-j"]
+	path = junit-exercise-iines-j
+	url = https://github.com/javakurssi/junit-exercise-iines-j.git
+[submodule "inheritance-interfaces-iines-j"]
+	path = inheritance-interfaces-iines-j
+	url = https://github.com/javakurssi/inheritance-interfaces-iines-j.git
+[submodule "streams-and-lambdas-iines-j"]
+	path = streams-and-lambdas-iines-j
+	url = https://github.com/javakurssi/streams-and-lambdas-iines-j
+[submodule "sql-databases-iines-j"]
+	path = sql-databases-iines-j
+	url = https://github.com/javakurssi/sql-databases-iines-j.git
+[submodule "sorting-and-filtering-iines-j"]
+	path = sorting-and-filtering-iines-j
+	url = https://github.com/javakurssi/sorting-and-filtering-iines-j.git
+[submodule "commit-history-iines-j"]
+	path = commit-history-iines-j
+	url = https://github.com/javakurssi/commit-history-iines-j.git
+[submodule "Tuntimateriaalit"]
+	path = Tuntimateriaalit
+	url = https://github.com/javakurssi/Tuntimateriaalit.git

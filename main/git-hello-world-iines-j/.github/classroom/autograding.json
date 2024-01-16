@@ -1,0 +1,14 @@
+{
+    "tests": [
+      {
+        "name": "Hello world",
+        "setup": "",
+        "run": "cat hello.txt | tr '[:upper:]' '[:lower:]'",
+        "input": "",
+        "output": "hello world",
+        "comparison": "included",
+        "timeout": 1,
+        "points": 1
+      }
+    ]
+  }

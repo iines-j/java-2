@@ -1,0 +1,16 @@
+# .gitignore file is used to exclude certain files from the repository. For example, 
+# you can exclude configuration files, temporary files, or files containing
+# sensitive information from the repository and keep them only on your local machine.
+
+
+# Gradle project-specific cache directory:
+.gradle
+
+# Gradle build output directory, that is generated when you run a build:
+build
+
+# A folder with your local IDE settings:
+.vscode
+
+# example of a file with potentially sensitive data:
+.env

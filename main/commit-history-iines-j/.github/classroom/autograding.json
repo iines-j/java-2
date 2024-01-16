@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "CommitIdsTest",
+      "setup": "",
+      "run": "./gradlew test --tests CommitIdsTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "GetContributorsTest",
+      "setup": "",
+      "run": "./gradlew test --tests GetContributorsTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "GroupCommitIdsTest",
+      "setup": "",
+      "run": "./gradlew test --tests GroupCommitIdsTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "PizzaCommitsTest",
+      "setup": "",
+      "run": "./gradlew test --tests PizzaCommitsTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 40
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+    "tests": [
+      {
+        "name": "01 StringBasicsTest",
+        "setup": "",
+        "run": "./gradlew test --tests StringBasicsTest",
+        "input": "",
+        "output": "",
+        "comparison": "exact",
+        "timeout": 1,
+        "points": 30
+      },
+      {
+        "name": "02 CollectionsBasicsTest",
+        "setup": "",
+        "run": "./gradlew test --tests CollectionsBasicsTest",
+        "input": "",
+        "output": "",
+        "comparison": "exact",
+        "timeout": 1,
+        "points": 30
+      },
+      {
+        "name": "03 PersonTest",
+        "setup": "",
+        "run": "./gradlew test --tests PersonTest",
+        "input": "",
+        "output": "",
+        "comparison": "exact",
+        "timeout": 1,
+        "points": 20
+      },
+      {
+        "name": "04 ObjectExerciseTest",
+        "setup": "",
+        "run": "./gradlew test --tests ObjectExerciseTest",
+        "input": "",
+        "output": "",
+        "comparison": "exact",
+        "timeout": 1,
+        "points": 20
+      }
+    ]
+  }
+  

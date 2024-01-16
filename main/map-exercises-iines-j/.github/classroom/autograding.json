@@ -1,0 +1,44 @@
+{
+    "tests": [
+        {
+            "name": "MapBasics.java",
+            "setup": "",
+            "run": "./gradlew test --tests MapBasicsTest",
+            "input": "",
+            "output": "",
+            "comparison": "exact",
+            "timeout": 1,
+            "points": 40
+        },
+        {
+            "name": "MapExperts.java",
+            "setup": "",
+            "run": "./gradlew test --tests MapExpertsTest",
+            "input": "",
+            "output": "",
+            "comparison": "exact",
+            "timeout": 1,
+            "points": 30
+        },
+        {
+            "name": "PostalCodesMain.java: 19230 -> Onkiniemi",
+            "setup": "",
+            "run": "GRADLE_OPTS=\"-Dfile.encoding=utf-8\" ./gradlew --quiet --console plain run | tr '[:upper:]' '[:lower:]'",
+            "input": "19230",
+            "output": "onkiniemi",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 15
+        },
+        {
+            "name": "PostalCodesMain.java: tammisaari -> 10600...10660",
+            "setup": "",
+            "run": "GRADLE_OPTS=\"-Dfile.encoding=utf-8\" ./gradlew --quiet --console plain run | tr '[:upper:]' '[:lower:]'",
+            "input": "tammisaari",
+            "output": ".*10600[^\\d]+10601[^\\d]+10620[^\\d]+10650[^\\d]+10660.*",
+            "comparison": "regex",
+            "timeout": 1,
+            "points": 15
+        }
+    ]
+}

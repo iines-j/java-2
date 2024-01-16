@@ -1,0 +1,94 @@
+{
+  "tests": [
+    {
+      "name": "Part 1: IntegerStreams",
+      "setup": "",
+      "run": "./gradlew test --tests IntegerStreamsTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Part 2: OptionalValues",
+      "setup": "",
+      "run": "./gradlew test --tests OptionalValuesTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Part 3: ListsAndStreams",
+      "setup": "",
+      "run": "./gradlew test --tests ListsAndStreamsTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Part 4: MappingStreams",
+      "setup": "",
+      "run": "./gradlew test --tests MappingStreamsTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Part 5: FilteringStreams",
+      "setup": "",
+      "run": "./gradlew test --tests FilteringStreamsTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Part 6: PredicatesWithStreams",
+      "setup": "",
+      "run": "./gradlew test --tests PredicatesWithStreamsTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Part 7: ObjectStreams",
+      "setup": "",
+      "run": "./gradlew test --tests ObjectStreamsTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Part 8: PersonStreams",
+      "setup": "",
+      "run": "./gradlew test --tests PersonStreamsTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Part 9: PizzaStreams",
+      "setup": "",
+      "run": "./gradlew test --tests PizzaStreamsTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 20
+    }
+  ]
+}
